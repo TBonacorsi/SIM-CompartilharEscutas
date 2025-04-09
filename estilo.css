@@ -1,0 +1,80 @@
+/* -------------------- GERAL -------------------- */
+
+:root {
+    /* facilita o ajuste de tamanhos depois */
+    --font-base: 16px;
+    --font-h1: 2rem;
+    --font-h2: 1.5rem;
+    --font-body: 1rem;
+    --color-border: #9e9b9b;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    font-size: var(--font-base);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* -------------------- CONTEÚDO -------------------- */
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-bottom: 60px;
+  }
+  
+  /* -------------------- TÍTULOS -------------------- */
+  
+  h1 {
+    font-size: var(--font-h1);
+    margin-bottom: 1.5rem;
+    text-align: justify;
+  }
+  
+  h2 {
+    font-size: var(--font-h2);
+    margin-bottom: 0.75rem;
+  }
+  
+  /* -------------------- LISTA DE LINKS -------------------- */
+  
+  ul {
+    margin-top: 60px;
+    padding-left: 1rem;
+  }
+  
+  ul li {
+    margin-bottom: 1rem;
+  }
+  
+  /* -------------------- BLOCO DE EVENTO -------------------- */
+  
+  .evento {
+    border-bottom: 2px solid var(--color-border);
+    padding: 20px 0;
+  }
+  
+  .evento:last-child {
+    border-bottom: none;
+  }
+  
+  /* -------------------- PLAYER DE ÁUDIO -------------------- */
+  
+  audio {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* -------------------- DESCRIÇÃO -------------------- */
+  
+  .descricao {
+    font-size: var(--font-body);
+    line-height: 1.6;
+    text-align: justify;
+  }
+  

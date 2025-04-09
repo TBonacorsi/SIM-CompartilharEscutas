@@ -1,0 +1,4 @@
+Os arquivos de audio devem ser baixados da seguinte pasta:
+https://drive.google.com/drive/folders/10_lxBLAZVkwa509ExEmJ7cIki0gY74Na?usp=sharing
+
+Os testes em suas máquinas só funcionarão se baixarem o áudio!!
